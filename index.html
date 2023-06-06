@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autocomplete</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__conteiner">
+        <div class="main__content">
+          <h1 class="main__title">Autocomplete</h1>
+          <div class="main__search">
+            <form class="main__form" name="form">
+              <input
+                class="main__search-input"
+                type="text"
+                placeholder="введите репозиторий"
+              />
+            </form>
+            <div class="main__search-bar ">
+                <ul class="main__list-bar list-reset">
+                </ul>
+            </div>
+            <div class="main__errors">
+              <span class="main__text-error hidden"></span>
+            </div>
+          </div>
+          <div class="main__repos">
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
